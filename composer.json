@@ -1,0 +1,22 @@
+{
+    "name": "mivan/leancloud",
+    "description": "leancloud",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan.Lu",
+            "email": "ethan.lu@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "curl/curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mivan\\leancloud\\": ""
+        }
+    }
+}
